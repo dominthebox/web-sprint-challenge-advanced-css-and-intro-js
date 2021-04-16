@@ -22,10 +22,24 @@ Commit your code regularly and meaningfully.
 
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
-1. How would you describe acessibility on the web to someone new to programming?
-2. Talk about 3 different things you can do to ensure your website is accessible. 
+1. How would you describe accessibility on the web to someone new to programming?
+
+Accessibility is the practice of utilizing proper semantic HTML and design aspects so that you are creating a webpage or application with wide usability in order to be as inclusive as possible. Good design, which includes proper semantic elements, provides interpretation to Assistive technology, keyboard navigation, and shortcuts for common user interactions. This ensures your webpage or application is accessible to a wide range of individuals.
+
+2. Talk about 3 different things you can do to ensure your website is accessible.
+
+A) Use proper semantic HTML elements to markup your webpage, reserving elements like div's and span's for presentational markup
+B) Utilize media queries to create different dimension breakpoints for image resizing and content alignment, so that your webpage has a flexible layout and responsive design on multiple devices like Desktops, Laptops, Tablets, Smart Phones, etc.
+C)  Practice good Typography; proper header tags on your text, scalable units for fonts, real text over graphics, serif fonts for larger bodies of text to help readability, avoid small font sizes,  and keep color contrast in mind.
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+Variables are foundational and fundamental building blocks of the programming language JavaScript. They are ways to store values or data that you can later reference and retrieve in your code. There are a couple different variable types, some can be edited or altered, some are more concrete, you will utilize both in your code for different purposes. 
+
 4. What is the purpose of using functions in code?
+
+Functions protect blocks of code until they are invoked. The purpose of creating Functions is to utilize JavaScript to do work for you and your code rather than writing repetitive code. Developers refer to this as keeping your code 'DRY' (Don't Repeat Yourself), Functions, when written properly, can be used to reference different parts of your code depending on the parameters you set.
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -60,7 +74,7 @@ After finishing your required elements, you can push your work further. These go
 
 * [ ] Website is responsive at multiple breakpoints and looks good in-between breakpoints because student is using responsive units of measurement where appropriate. Student is using most semantic HTML for each element on page and has included ARIA roles where applicable (More research may be required to implement ARIA roles)  
 * [ ] Student demonstrates and can explain a deep understanding of basic programming concepts when walking Team Lead through the explanation of their code.
-* [ ] Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example) - do this seperate from your MVP tasks
+* [ ] Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example) - do this separate from your MVP tasks
 
 
 ## Resources

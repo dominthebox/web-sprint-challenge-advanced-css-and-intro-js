@@ -134,3 +134,27 @@ button:hover{
 .artist img{
     width:100%;
 }
+
+/* Mobile Design Section Styles */
+
+@media (max-width:500px){
+    .header{
+        width: 90%;
+        margin: 0 auto;
+        justify-content: space-around;
+    }
+
+    .title-container div{
+        width: 100%;
+        background-size: 200% 200%;
+        background-position: center;
+    }
+    .artists-container{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .artist img{
+        width: 100%;
+        justify-content: center;
+    }
+}
