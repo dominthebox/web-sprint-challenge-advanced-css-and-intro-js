@@ -303,17 +303,26 @@ Use lotsOfArt to do the following:
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
 function lotsOfArt(array){
-  let bigNumbers = [];
-  for(let i = 0; i< array.length; i++){
-    if(array[i].includes(search)){
-      bigNumbers.push(array[i])
+  let lotsOfPaint = [];
+    for (let i = 0; i < array.length; i++){
+      if (array[i].paintings >= 100){
+        lotsOfPaint.push (array[i].name);
+      }
     }
-  }
-  
-  return bigNumbers;
+    return lotsOfPaint;
 }
-console.log(lotsOfArt(artists));
+  console.log(lotsOfArt(artists));
+
+
+// let bigNumbers = [];
+//   for(let i = 0; i< array.length; i++){
+//     if(array.includes(search)){
+//       bigNumbers.push(array[i])
+//     }
+//   }
   
+//   return bigNumbers;
+// }
 
 // 🎨🎨 STRETCH 🎨🎨//
 /* 💪💪💪💪💪💪 STRETCH 1: 💪💪💪💪💪💪 
