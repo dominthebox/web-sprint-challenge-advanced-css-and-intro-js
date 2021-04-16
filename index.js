@@ -288,11 +288,12 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/){
-    /*Your Code Here*/
+function addArtist(array, id, name, years, genre, nationality, bio){
+    array.push({id, name, years, genre, nationality, bio});
+    return array;
   }
 
-  
+  console.log(addArtist(artists, "20", "Dominick Sallustro", "1989 - current day", "Web Design", "American", "He started learning guitar at 13 years old. After studying music and film for years he decided to enter the field of web development."));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use lotsOfArt to do the following: 
